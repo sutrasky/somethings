@@ -1,0 +1,16 @@
+# 隐私与体积红线：下面的东西一律不入库
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+*.log
+
+# 系统垃圾
+.DS_Store
+Thumbs.db
+*.tmp
+*.swp
+~$*
